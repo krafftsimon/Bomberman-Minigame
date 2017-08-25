@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.wayne.bomberman.framework.Position"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.objects.Enemy"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.objects.Crate"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.windows.Handler"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="java.applet.Applet"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.framework.Texture"/>
+<fullyQualifiedTypeName name="java.awt.Stroke"/>
+<fullyQualifiedTypeName name="java.awt.BasicStroke"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.menuwindows.Credits"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.windows.Animations"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.menuwindows.InGameMenu"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.menuwindows.PauseOptions"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.windows.Sound"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.objects.Player"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.windows.game"/>
+<fullyQualifiedTypeName name="com.wayne.bomberman.menuwindows.GameOver"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.URL"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+</qualifiedTypeNameHistroy>

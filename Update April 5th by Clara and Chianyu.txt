@@ -1,0 +1,23 @@
+Update: April 5th by Clara and Chianyu
+bomberman can now place bomb, and destroy crates
+	bomb will explode after 2 seconds
+	bomberman now cannot place another bomb until the first one explodes
+	we want to stop bomberman from passing through the bomb, we started to implemented it but not yet finish
+		we will upload once we complete the code
+
+in "select level" sub menu, we can now select levels, each level has its own map
+	we have created an array of maps in the texture class
+	each mouse event in the selectLevel class gives a value to levelNum
+	and the init() loads the map according to levelNum
+	however, for the moment being, the "play" is disabled, which needs to be fixed
+		(we feel it's unncessary to have this option since it functions as selecting level 1 in "select level" menu)
+
+bugs we found:
++ the bomb can destroy crate even if there is a block in between (after we increase the range)
++ level select button, we can only click on the lower right corner, or else it will go directly to level 2
+	(we think it's because the "select level" button overlaps with "level 2" button...)
+
+questions:
++ what happens to the bomberman if it gets hit? does it go to its initial position or stays at its current position?
++ what is the condition for level completion? (e.g. destroy all the AI/crates etc.?)
+

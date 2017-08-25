@@ -1,0 +1,28 @@
+public interface Moveable {
+
+	public void moveUp(int speed, Position current) {
+		int yPos = current.getY();
+		current.setY(++yPos);
+		Thread.sleep(speed);
+	}
+
+
+	public void moveDown(int speed, Position current) {
+		int yPos = current.getY();
+		current.setY(--yPos);
+		Thread.sleep(speed);
+	}
+
+	public void moveLeft(int speed, Position current) {
+		int xPos = current.getX();
+		current.setX(--xPos);
+		Thread.sleep(speed);
+	}
+
+	public void moveRight(int speed, Position current) {
+		int xPos = current.getX();
+		current.setX(++xPos);
+		Thread.sleep(speed);
+	}
+	
+}

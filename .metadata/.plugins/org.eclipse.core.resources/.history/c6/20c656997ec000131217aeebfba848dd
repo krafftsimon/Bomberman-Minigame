@@ -1,0 +1,56 @@
+package com.wayne.bomberman.menuwindows;
+
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.Stroke;
+
+import com.wayne.bomberman.objects.Player;
+import com.wayne.bomberman.windows.game;
+
+public class GameOver {
+
+	int Xpos = 500;
+	int Xpos2 = 500;
+	public Rectangle quitButton = new Rectangle(305,265,200,50);
+	
+
+	public void render(Graphics g){
+		
+		Graphics2D g2d = (Graphics2D) g;
+		
+		float thickness = 5;
+		Stroke stroke1 = g2d.getStroke();
+		g2d.setStroke(new BasicStroke(thickness));
+		
+		int y=35;
+		
+		g.setColor(Color.red);
+		g.setFont(new Font("CenturyGothic", Font.BOLD, 24)); 
+	
+		g.drawString("Main Menu", quitButton.x+40, quitButton.y+y);
+		g2d.draw(quitButton);
+	
+		g2d.setStroke(stroke1);
+	
+		g.setFont(new Font("TimesRoman", Font.PLAIN, 72)); 
+		if(Xpos==200)
+			g.drawString("GAME OVER", Xpos, 160);
+		Xpos-=300;
+		if(Xpos < 0)
+			Xpos = 500;
+		
+		if(Xpos2==225)
+			g.drawString("YOU LOSE!", Xpos2, 500);
+		Xpos2-=275;
+		if(Xpos2 < 0)
+			Xpos2 = 500;
+		
+		g.setColor(Color.white);
+		g.setFont(new Font("CenturyGothic", Font.BOLD, 18)); 
+		g.drawString("Final Score" + String.valueOf(game.score), 400, 570);
+	}
+}
